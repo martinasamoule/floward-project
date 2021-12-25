@@ -1,0 +1,51 @@
+{
+    "designers": [{
+            "designerId": 1,
+            "designerName": "Ascia",
+            "designerImage": "json/designersImages/1.jpg",
+            "designerBannerImg": "json/designerBannerImgs/1.png",
+            "designerProducts": [{
+                    "productId": 1,
+                    "productName": "Monet's Garden",
+                    "productPrice": 1655,
+                    "productDescription": "Height 45 CM Width 25 CM The arrangement contains Waxflower, Eustoma .",
+                    "productClebrate": "Thank You",
+                    "image": "json/images/1.jpg"
+                },
+                {
+                    "productId": 2,
+                    "productName": "100 Summer Mix Roses",
+                    "productPrice": 2630,
+                    "productDescription": "Height 60 CM Width 50 CM The arrangement contains Rose .",
+                    "productClebrate": "Happy Birthday",
+                    "image": "json/images/2.jpg"
+                }
+            ]
+        },
+        {
+            "designerId": 2,
+            "designerName": "Buthaina Alraisi",
+            "designerImage": "json/designersImages/2.jpg",
+            "designerBannerImg": "json/designerBannerImgs/2.jpg",
+            "designerProducts": [{
+                    "productId": 3,
+                    "productName": "Monet's Garden",
+                    "productPrice": 1655,
+                    "productDescription": "Height 34 CM Width 54 CM . A pretty in pink bouquet to gift a loved one and make their day better and brighter. ",
+                    "productClebrate": "Thank You",
+                    "image": "json/images/3.jpg"
+                },
+                {
+                    "productId": 4,
+                    "productName": "Grace",
+                    "productPrice": 1485,
+                    "productDescription": "Height 60 CM Width 50 CM The arrangement contains Rose .",
+                    "productClebrate": "Happy Birthday",
+                    "image": "json/images/4.jpg"
+                }
+            ]
+        }
+
+    ]
+
+}

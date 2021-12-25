@@ -1,0 +1,95 @@
+#page ,
+.myrow
+{
+    font-family: sans-serif;
+}
+#page
+{
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgb(255, 255, 255);
+}
+#page p
+{
+    width: 40%;
+    margin-left: 30%;
+    text-align: center;
+}
+#page h4
+{
+    font-weight: bold;
+    margin-top: 0px;
+}
+/* end header */
+
+/* page items */
+.myrow
+{  
+    margin-bottom: 20px;
+    background-color: #ecebeb ;
+}
+
+.minimizecol
+{
+    text-align: center;
+    background-color:white;
+    overflow: hidden;
+    margin: 10px;
+}
+.imgdiv
+{
+    width: 80%;
+    text-align: center;
+    height: 75%;
+    overflow: hidden;
+    margin-left: 28px;
+    margin-top: 10px;
+    border-radius: 7%;
+
+}
+.myrow img
+{
+    max-width: 100%;
+    border-radius: 7%;
+    -webkit-border-radius: 7%;
+    -moz-border-radius: 7%;
+    -ms-border-radius: 7%;
+    -o-border-radius: 7%;
+    transition-property: all;
+    transition-duration: 3s;
+    
+}
+.myrow img:hover
+{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.addtocart
+{
+    padding: 6px ;
+    margin-bottom: 8px;
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: honeydew;
+    cursor: pointer;
+    width: 80%;
+    border-radius: .25rem;
+    color: #085671;
+}
+.addtocart i
+{
+   padding-right: 5%;
+}
+.addtocart:hover
+{
+    background: #085671;
+    color: white;
+}
+@media screen and (max-width:767px){
+    .imgdiv
+    {
+        margin-left:20px;
+    }
+}
+
+    

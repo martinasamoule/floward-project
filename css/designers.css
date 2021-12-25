@@ -1,0 +1,41 @@
+/* start designers  */
+.designer-banner {
+    background-image: url('../img/desingers.jpg');
+    background-size: cover;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width:767px) {
+    .designer-banner {
+        height: 200px;
+    }
+}
+
+@media (min-width:768px) {
+    .designer-banner {
+        height: 500px;
+    }
+}
+
+.designers {
+    padding: 0 20px;
+}
+
+.designers .designer-img {
+    width: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.designers .designer-name {
+    color: #707070;
+    padding: 20px;
+}
+
+/* end designers  */
