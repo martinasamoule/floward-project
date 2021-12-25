@@ -1,4 +1,4 @@
 # flowersEcommerce
 this is a simulation of flowers E-commerce
 
-## https://amr-mohsen64.github.io/flowersEcommerce/
+## https://github.com/martinasamoule/floward-project/index.html
