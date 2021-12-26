@@ -52,7 +52,7 @@ function displayData(jsobj) {
         }
     }
     //add to local storage
-    for (var i = 0; i < jsobj.length; i++) {
+    for (var i = 0; i < jsobj.length - 1; i++) {
         document.getElementById(jsobj[i].id).addEventListener("click", function () {
             localStorage.setItem("product" + this.id, this.id);
             counter = localStorage.length; //counter on cart
